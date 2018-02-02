@@ -1,0 +1,34 @@
+# OS-specific
+.DS_Store
+
+# Editor swapfiles
+.*.sw?
+*~
+
+public/
+themes/
+
+
+# Documentation
+_site/*
+.yardoc/
+doc/
+
+# Python
+*.pyc
+
+# Rubinius
+*.rbc
+
+# IDE junk
+.idea/*
+*.iml
+.project
+
+# Ruby Managers
+.rbenv
+.rbenv-gemsets
+.ruby-gemset
+.ruby-version
+.rvmrc
+.rvmrc

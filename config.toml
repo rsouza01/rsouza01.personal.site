@@ -1,0 +1,81 @@
+baseURL = "http://www.rsouza01.com.br"
+languageCode = "pt-br"
+title = "Rodrigo Souza - Analista Desenvolvedor Senior - Projetos Web, Cliente-servidor e IoT"
+theme = "hugo-initio"
+publishDir = "public"
+
+[params]
+    name = "Rodrigo Souza"
+    description = "Astrofísico e Cientista da Computação"
+    email = "rsouza01@gmail.com"
+    address = "São Paulo"
+    year = 2017
+    background = ""
+    favicon = "images/tags.ico"
+    DateForm = "02/02/2018"
+
+    showSubheader = true
+    showServices = true
+    showRecentWorks = true
+    showDownload = true
+    showClients = true
+
+    footerEnableContact = true
+    footerEnableFollowme = true
+    footerEnableTextWidget = true
+    footerEnableFormWidget = true
+
+[[menu.main]]
+    name = "home"
+    url = "/"
+    weight = 1
+[[menu.main]]
+    name = "blog"
+    url = "/post/"
+    weight = 5
+
+[params.disqus]
+    site = "hugo-initio-site.disqus.com"
+
+[params.sharethis]
+    property = "123456789012345678901234"
+    custom = true
+
+[params.google.analytics]
+    trackerID = "GA-000000000-0"
+
+[[params.social]]
+	title = "instagram"
+	url = "https://www.instagram.com/r.souza01"
+    icon = "fa-instagram"
+    footer = true
+    sharethis = false
+    network = ""
+[[params.social]]
+	title = "google+"
+	url = "https://plus.google.com/rsouza01"
+    icon = "fa-google-plus-square"
+    footer = false
+    sharethis = true
+    network = "googleplus"
+[[params.social]]
+	title = "linkedin"
+	url = "https://www.linkedin.com/in/r.souza01"
+    icon = "fa-linkedin-square"
+    footer = false
+    sharethis = true
+    network = "linkedin"
+[[params.social]]
+	title = "github"
+	url = "https://github.com/rsouza01"
+    icon = "fa-github"
+    footer = true
+    sharethis = false
+    network = ""
+[[params.social]]
+	title = "email"
+	url = "mailto:rsouza01@gmail.com"
+    icon = "fa-envelope"
+    footer = false
+    sharethis = true
+    network = "email"
